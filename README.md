@@ -1,12 +1,8 @@
 # 📚 Library Management System
 
----
-
 This Library Management System (LMS) is a Java-based application designed to manage books, members, and transactions in a library. It supports various book formats including printed books, eBooks, and audiobooks. The system allows for adding, removing, and updating books and members, as well as borrowing and returning books.
 
 ## 🗃️ Features
-
----
 
 - 📚 **Manage Books**: Add, remove, search, and list books in the library's inventory.
 - 🧑‍🤝‍🧑 **Member Management**: Add and remove members, and keep track of their borrowing history.
@@ -16,8 +12,6 @@ This Library Management System (LMS) is a Java-based application designed to man
 
 
 ## 📂 Project Structure
-
----
 
 - `src/com/library/AudioBook.java`: Defines the `AudioBook` class, extending the `Book` class with additional attributes for duration and narrator.
 - `src/com/library/Book.java`: Defines the `Book` class, the base class for all book types.
@@ -34,8 +28,6 @@ This Library Management System (LMS) is a Java-based application designed to man
 <br>
 
 ## 🚀 Getting Started
-
----
 
 [![Getting Started](https://img.shields.io/badge/Getting_Started-Ready-red)](https://github.com/TanvirAnjumApurbo/LMS.git)
 
@@ -68,23 +60,17 @@ This Library Management System (LMS) is a Java-based application designed to man
 
 ## 🤝 Contribution
 
----
-
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
 
 Contributions are welcome! Please feel free to fork this repository, make changes, and submit a pull request. Whether it's improving documentation, fixing bugs, or adding something new, your help is appreciated.
 
 ## 📄 License
 
----
-
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ## 🔗 Connect with Me
-
----
 
 ![Connect with Me](https://img.shields.io/badge/Connect-with%20Tanvir-%23007bff)
 
