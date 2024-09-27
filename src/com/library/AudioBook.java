@@ -9,8 +9,6 @@ public class AudioBook extends Book {
         setDuration(duration);  // Validate and set duration
         this.narrator = narrator;
         setAvailableAudioBookCopies(1); // Mark audiobook as available
-        setAudioBookDuration(duration); // Initialize audiobook attributes in superclass
-        setAudioBookNarrator(narrator); // Initialize audiobook attributes in superclass
     }
 
     // Getters and Setters
@@ -19,14 +17,10 @@ public class AudioBook extends Book {
     }
 
     public void setDuration(double duration) {
-        try {
-            if (duration > 0) {
-                this.duration = duration;
-            } else {
-                throw new IllegalArgumentException("Duration must be positive.");
-            }
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+        if (duration > 0) {
+            this.duration = duration;
+        } else {
+            throw new IllegalArgumentException("Duration must be positive.");
         }
     }
 

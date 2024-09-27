@@ -9,8 +9,6 @@ public class EBook extends Book {
         setFileSize(fileSize); // Ensure file size is positive
         setFormat(format); // Ensure format is valid
         setAvailableEBookCopies(1); // Mark eBook as available
-        seteBookFileSize(fileSize); // Initialize eBook attributes in superclass
-        seteBookFormat(format); // Initialize eBook attributes in superclass
     }
 
     // Getters and Setters with validation

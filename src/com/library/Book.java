@@ -58,6 +58,22 @@ public class Book {
         return category;
     }
 
+    void setTitle(String title) {
+        this.title = title;
+    }
+
+    void setAuthor(String author) {
+        this.author = author;
+    }
+
+    void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    void setCategory(String category) {
+        this.category = category;
+    }
+
     public int getAvailablePrintedCopies() {
         return availablePrintedCopies;
     }

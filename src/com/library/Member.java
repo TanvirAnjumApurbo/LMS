@@ -29,6 +29,14 @@ public class Member {
         return contactInfo;
     }
 
+   void setName(String name) {
+        this.name = name;
+    }
+
+    void setContactInfo(String contactInfo) {
+        this.contactInfo = contactInfo;
+    }
+
     public List<Book> getBorrowedBooks() {
         return borrowedBooks;
     }
@@ -52,11 +60,11 @@ public class Member {
     }
 
     // Update member's info
-    public void updateMemberInfo(String newName, String newContactInfo) {
-        this.name = newName;
-        this.contactInfo = newContactInfo;
-        System.out.println("Updated member info: " + name + ", Contact: " + contactInfo);
-    }
+//    public void updateMemberInfo(String newName, String newContactInfo) {
+//        this.name = newName;
+//        this.contactInfo = newContactInfo;
+//        System.out.println("Updated member info: " + name + ", Contact: " + contactInfo);
+//    }
 
     // List all borrowed books
     public void listBorrowedBooks() {
